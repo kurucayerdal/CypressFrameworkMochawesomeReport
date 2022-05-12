@@ -1,0 +1,158 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 2,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-05-11T08:05:28.934Z",
+    "end": "2022-05-11T08:05:54.903Z",
+    "duration": 25969,
+    "testsRegistered": 3,
+    "passPercent": 66.66666666666666,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f68d3017-0192-431e-bb04-65f7a0f318a9",
+      "title": "",
+      "fullFile": "cypress/integration/exampleTests/A/test1.spec.js",
+      "file": "cypress/integration/exampleTests/A/test1.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "05f129a4-3f78-4336-ae68-0363e0608ec1",
+          "title": "Test Suite 1",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Test 1",
+              "fullTitle": "Test Suite 1 Test 1",
+              "timedOut": null,
+              "duration": 15779,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": "\"assets/exampleTests/A/test1.spec.js/Test Suite 1 -- Test 1 (failed).png\"",
+              "code": "aPage.acceptCookies();\naPage.makeAsearch();\naPage.verifyTheTitleOfThePage();",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 10000ms: expected 'EVOLUCARE Technologies - Recherche Google' to equal undefined",
+                "estack": "AssertionError: Timed out retrying after 10000ms: expected 'EVOLUCARE Technologies - Recherche Google' to equal undefined\n    at Apage.verifyTitleOfThePage (https://www.google.com/__cypress/tests?p=cypress\\integration\\exampleTests\\A\\test1.spec.js:272:16)\n    at Apage.verifyTheTitleOfThePage (https://www.google.com/__cypress/tests?p=cypress\\integration\\exampleTests\\A\\test1.spec.js:161:17)\n    at Context.eval (https://www.google.com/__cypress/tests?p=cypress\\integration\\exampleTests\\A\\test1.spec.js:109:11)",
+                "diff": null
+              },
+              "uuid": "6c9a9fa3-3c10-4a70-a290-0dc95cbe4991",
+              "parentUUID": "05f129a4-3f78-4336-ae68-0363e0608ec1",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test 2",
+              "fullTitle": "Test Suite 1 Test 2",
+              "timedOut": null,
+              "duration": 6224,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.screenshot();\naPage.acceptCookies();\ncy.screenshot();\naPage.makeAsearch();\ncy.screenshot();",
+              "err": {},
+              "uuid": "c69709ca-d802-4b91-be3f-151b14efe657",
+              "parentUUID": "05f129a4-3f78-4336-ae68-0363e0608ec1",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test 3",
+              "fullTitle": "Test Suite 1 Test 3",
+              "timedOut": null,
+              "duration": 3814,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"https://www.google.com\");\ncy.contains(\"J'accepte\").click();\ncy.get('[name=\"q\"]').type(\"EVOLUCARE Technologies {enter}\");",
+              "err": {},
+              "uuid": "54c732ea-969a-4e13-9ca7-4b3b10af3fdd",
+              "parentUUID": "05f129a4-3f78-4336-ae68-0363e0608ec1",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c69709ca-d802-4b91-be3f-151b14efe657",
+            "54c732ea-969a-4e13-9ca7-4b3b10af3fdd"
+          ],
+          "failures": [
+            "6c9a9fa3-3c10-4a70-a290-0dc95cbe4991"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 25817,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "[status]_[datetime]-[name]-report",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/mocha",
+        "reportFilename": "[status]_[datetime]-[name]-report",
+        "reportTitle": "Rapport",
+        "reportPageTitle": "Tests",
+        "charts": true,
+        "inline": true,
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "code": true,
+        "includeScreenshots": true,
+        "screenshotUseRelativePath": true,
+        "timestamp": "longDate"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

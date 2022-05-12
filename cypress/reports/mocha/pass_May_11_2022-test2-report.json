@@ -1,0 +1,134 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-05-11T08:05:56.111Z",
+    "end": "2022-05-11T08:06:03.862Z",
+    "duration": 7751,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "1d2e3081-a8c5-4705-883d-83328ab26da1",
+      "title": "",
+      "fullFile": "cypress/integration/exampleTests/B/test2.spec.js",
+      "file": "cypress/integration/exampleTests/B/test2.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "2cd1610b-72d5-4c47-8a7b-69461cfd95cf",
+          "title": "Test Suite 2",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Test A",
+              "fullTitle": "Test Suite 2 Test A",
+              "timedOut": null,
+              "duration": 3352,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"https://www.google.com\");\ncy.contains(\"J'accepte\").click();\ncy.get('[name=\"q\"]').type('EVOLUCARE Technologies {enter}');",
+              "err": {},
+              "uuid": "daf65d42-478e-41ed-8464-4cac618d4b79",
+              "parentUUID": "2cd1610b-72d5-4c47-8a7b-69461cfd95cf",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test B",
+              "fullTitle": "Test Suite 2 Test B",
+              "timedOut": null,
+              "duration": 4358,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"https://www.google.com\");\ncy.contains(\"J'accepte\").click();\ncy.get('[name=\"q\"]').type('EVOLUCARE Technologies {enter}');\ncy.screenshot();",
+              "err": {},
+              "uuid": "149db7c1-9494-4b00-9c57-fe252d007638",
+              "parentUUID": "2cd1610b-72d5-4c47-8a7b-69461cfd95cf",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "daf65d42-478e-41ed-8464-4cac618d4b79",
+            "149db7c1-9494-4b00-9c57-fe252d007638"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 7710,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "[status]_[datetime]-[name]-report",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/mocha",
+        "reportFilename": "[status]_[datetime]-[name]-report",
+        "reportTitle": "Rapport",
+        "reportPageTitle": "Tests",
+        "charts": true,
+        "inline": true,
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "code": true,
+        "includeScreenshots": true,
+        "screenshotUseRelativePath": true,
+        "timestamp": "longDate"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
