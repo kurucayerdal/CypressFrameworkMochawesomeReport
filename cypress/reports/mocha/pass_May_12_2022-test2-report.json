@@ -5,9 +5,9 @@
     "passes": 2,
     "pending": 0,
     "failures": 0,
-    "start": "2022-05-11T08:05:56.111Z",
-    "end": "2022-05-11T08:06:03.862Z",
-    "duration": 7751,
+    "start": "2022-05-12T10:12:09.519Z",
+    "end": "2022-05-12T10:12:17.438Z",
+    "duration": 7919,
     "testsRegistered": 2,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "1d2e3081-a8c5-4705-883d-83328ab26da1",
+      "uuid": "0162529d-eb53-4f0b-b5a3-d0da15ec4071",
       "title": "",
       "fullFile": "cypress/integration/exampleTests/B/test2.spec.js",
       "file": "cypress/integration/exampleTests/B/test2.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "2cd1610b-72d5-4c47-8a7b-69461cfd95cf",
+          "uuid": "6a425691-a411-424b-8c6b-d7737804db79",
           "title": "Test Suite 2",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Test A",
               "fullTitle": "Test Suite 2 Test A",
               "timedOut": null,
-              "duration": 3352,
+              "duration": 3348,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "cy.visit(\"https://www.google.com\");\ncy.contains(\"J'accepte\").click();\ncy.get('[name=\"q\"]').type('EVOLUCARE Technologies {enter}');",
               "err": {},
-              "uuid": "daf65d42-478e-41ed-8464-4cac618d4b79",
-              "parentUUID": "2cd1610b-72d5-4c47-8a7b-69461cfd95cf",
+              "uuid": "9b2f2c85-8c41-4b0c-b607-234b2706622d",
+              "parentUUID": "6a425691-a411-424b-8c6b-d7737804db79",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "Test B",
               "fullTitle": "Test Suite 2 Test B",
               "timedOut": null,
-              "duration": 4358,
+              "duration": 4526,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -65,21 +65,21 @@
               "context": null,
               "code": "cy.visit(\"https://www.google.com\");\ncy.contains(\"J'accepte\").click();\ncy.get('[name=\"q\"]').type('EVOLUCARE Technologies {enter}');\ncy.screenshot();",
               "err": {},
-              "uuid": "149db7c1-9494-4b00-9c57-fe252d007638",
-              "parentUUID": "2cd1610b-72d5-4c47-8a7b-69461cfd95cf",
+              "uuid": "753261bb-07a0-4690-9285-572cfea56470",
+              "parentUUID": "6a425691-a411-424b-8c6b-d7737804db79",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "daf65d42-478e-41ed-8464-4cac618d4b79",
-            "149db7c1-9494-4b00-9c57-fe252d007638"
+            "9b2f2c85-8c41-4b0c-b607-234b2706622d",
+            "753261bb-07a0-4690-9285-572cfea56470"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 7710,
+          "duration": 7874,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

@@ -17,6 +17,10 @@
     return false;
   });
 
+  require('cypress-downloadfile/lib/downloadFileCommand');
+
+  import 'cypress-file-upload';
+
 
 // ça marche mais une exeption
 // Cypress.Commands.add("addScreenshot", () =>
