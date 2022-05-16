@@ -2,7 +2,7 @@
 describe("Test Suite 2",()=>{
 
 it("Test A", ()=>{
-cy.visit("https://www.google.com");
+cy.visit("/");
 cy.contains("J'accepte").click();
 cy.get('[name="q"]').type('EVOLUCARE Technologies {enter}');
 });

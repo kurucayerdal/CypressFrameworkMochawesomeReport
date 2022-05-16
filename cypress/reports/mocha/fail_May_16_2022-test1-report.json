@@ -5,9 +5,9 @@
     "passes": 2,
     "pending": 0,
     "failures": 1,
-    "start": "2022-05-12T10:11:43.462Z",
-    "end": "2022-05-12T10:12:08.500Z",
-    "duration": 25038,
+    "start": "2022-05-16T08:42:55.844Z",
+    "end": "2022-05-16T08:43:20.634Z",
+    "duration": 24790,
     "testsRegistered": 3,
     "passPercent": 66.66666666666666,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "080aabde-4677-4816-aafd-1daff64b9cbe",
+      "uuid": "b2ebe3a2-ff3e-43a6-b1fe-d0e2a83784f1",
       "title": "",
       "fullFile": "cypress/integration/exampleTests/A/test1.spec.js",
       "file": "cypress/integration/exampleTests/A/test1.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "58be0b79-10c1-499e-bd47-a3c0b9c9588d",
+          "uuid": "dec57f25-92e5-48b5-8244-b2e7213b9afb",
           "title": "Test Suite 1",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Test 1",
               "fullTitle": "Test Suite 1 Test 1",
               "timedOut": null,
-              "duration": 15529,
+              "duration": 15451,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -51,8 +51,8 @@
                 "estack": "AssertionError: Timed out retrying after 10000ms: expected 'EVOLUCARE Technologies - Recherche Google' to equal undefined\n    at Apage.verifyTitleOfThePage (https://www.google.com/__cypress/tests?p=cypress\\integration\\exampleTests\\A\\test1.spec.js:272:16)\n    at Apage.verifyTheTitleOfThePage (https://www.google.com/__cypress/tests?p=cypress\\integration\\exampleTests\\A\\test1.spec.js:161:17)\n    at Context.eval (https://www.google.com/__cypress/tests?p=cypress\\integration\\exampleTests\\A\\test1.spec.js:109:11)",
                 "diff": null
               },
-              "uuid": "e3ecd68e-88fd-4ef9-8067-16fc3bcf6cae",
-              "parentUUID": "58be0b79-10c1-499e-bd47-a3c0b9c9588d",
+              "uuid": "d6aa4d7d-575e-4888-a1a8-87884a078615",
+              "parentUUID": "dec57f25-92e5-48b5-8244-b2e7213b9afb",
               "isHook": false,
               "skipped": false
             },
@@ -60,7 +60,7 @@
               "title": "Test 2",
               "fullTitle": "Test Suite 1 Test 2",
               "timedOut": null,
-              "duration": 5865,
+              "duration": 5736,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -69,8 +69,8 @@
               "context": null,
               "code": "cy.screenshot();\naPage.acceptCookies();\ncy.screenshot();\naPage.makeAsearch();\ncy.screenshot();",
               "err": {},
-              "uuid": "638303a2-46e3-41c5-a9bc-6c1ba1b9c436",
-              "parentUUID": "58be0b79-10c1-499e-bd47-a3c0b9c9588d",
+              "uuid": "643d82a8-832d-4352-b93f-e69f55bcfa8a",
+              "parentUUID": "dec57f25-92e5-48b5-8244-b2e7213b9afb",
               "isHook": false,
               "skipped": false
             },
@@ -78,7 +78,7 @@
               "title": "Test 3",
               "fullTitle": "Test Suite 1 Test 3",
               "timedOut": null,
-              "duration": 3525,
+              "duration": 3446,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -87,23 +87,23 @@
               "context": null,
               "code": "cy.visit(\"https://www.google.com\");\ncy.contains(\"J'accepte\").click();\ncy.get('[name=\"q\"]').type(\"EVOLUCARE Technologies {enter}\");",
               "err": {},
-              "uuid": "53300c33-32b3-41a7-ad37-351ce019c701",
-              "parentUUID": "58be0b79-10c1-499e-bd47-a3c0b9c9588d",
+              "uuid": "0f80490b-1a83-4075-834e-d873307c778a",
+              "parentUUID": "dec57f25-92e5-48b5-8244-b2e7213b9afb",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "638303a2-46e3-41c5-a9bc-6c1ba1b9c436",
-            "53300c33-32b3-41a7-ad37-351ce019c701"
+            "643d82a8-832d-4352-b93f-e69f55bcfa8a",
+            "0f80490b-1a83-4075-834e-d873307c778a"
           ],
           "failures": [
-            "e3ecd68e-88fd-4ef9-8067-16fc3bcf6cae"
+            "d6aa4d7d-575e-4888-a1a8-87884a078615"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 24919,
+          "duration": 24633,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
