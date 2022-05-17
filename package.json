@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "cypress:open": "cypress open",
-    "test-jenkins": "npm cypress run --reporter mocha-junit-reporter --reporter-options ./test-results.xml"
+    "test-jenkins": "npx cypress run --reporter mocha-junit-reporter --reporter-options ./test-results.xml"
   },
   "author": "Erdal Kurucay",
   "license": "ISC",
