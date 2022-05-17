@@ -9,7 +9,6 @@ describe("Test Suite 1", () => {
   it("Test 1", () => {
     aPage.acceptCookies();
     aPage.makeAsearch();
-    aPage.verifyTheTitleOfThePage();
   });
 
   it("Test 2", () => {
