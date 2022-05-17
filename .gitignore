@@ -1,0 +1,9 @@
+# NODE
+node_modules/*
+
+#Results files
+cypress/reports/*
+cypress/fixtures/*
+
+#Download files
+cypress/downloads/*
